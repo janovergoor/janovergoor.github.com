@@ -3,6 +3,7 @@ body {
     font-size: 18px;
     line-height: 20px;
     -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+    padding-left: 50px;
 
 }
 
@@ -28,10 +29,33 @@ body {
     font-size: 20px;
     line-height: 22px;
     margin-bottom: 10px;
-    font-style: oblique;
+    font-style: ;
 }
 
 #footer{
     margin-top: 10px;
     font-size: 14px;
+}
+
+.post_type{
+    font-size: 12px;
+    text-transform: lowercase;
+    display: inline;
+    font-style: italic;
+}
+
+#post_title{
+    font-size: 20px;
+    display: inline;
+}
+
+#post{
+    font-size: 18px;
+    line-height: 24px;
+    width: 700px;
+    text-indent:0px;
+}
+
+.top_title{
+    display: inline;
 }
