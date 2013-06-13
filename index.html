@@ -1,13 +1,18 @@
 --- 
 layout: splash
 ---
+<div class="headline"> A repository of economics, data analysis, thoughts and code.
+</div> 
 
-Hi I'm Andrey
+
+<div class="content-header">
+Research Projects:
+</div> 
 
 <ul>
 
 {% for project in site.categories.projects %}
-  <li> <p> {{ project.date | date_to_string }} &raquo; <a href="{{ project.url }}">{{ project.title }}</a><p></li>
+  <li style="list-style: none;"> <p><a href="{{ project.url }}">{{ project.title }}</a><p></li>
 {% endfor %}
 
 </ul>
