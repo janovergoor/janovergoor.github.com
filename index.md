@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Andrey Fradkin
+tagline: Curiosity
 ---
 {% include JB/setup %}
 
@@ -16,7 +16,7 @@ In `_config.yml` remember to specify your own data:
     title : My Blog =)
     
     author :
-      name : Name Lastname
+      name : Andrey Fradkin
       email : blah@email.test
       github : username
       twitter : username
