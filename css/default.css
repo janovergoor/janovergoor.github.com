@@ -22,8 +22,7 @@ body {
 .headline{
     font-size: 20px;
     line-height: 22px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .content-header{
@@ -52,17 +51,25 @@ body {
     text-transform: lowercase;
     display: inline;
     font-style: italic;
+    width: 60px;
+    float: left;
+}
+#list_title{
+    font-size: 18px;
+    line-height: 22px;
+    display: inline;
 }
 
 #post_title{
     font-size: 20px;
+    line-height: 24px;
     display: inline;
 }
 
 #post{
     font-size: 18px;
     line-height: 24px;
-    width: 700px;
+    width: 600px;
     text-indent:0px;
 }
 
