@@ -55,6 +55,13 @@ body {
     width: 60px;
     float: left;
 }
+
+.splash_date{
+    font-size: 12px; 
+    display: inline;
+    width: 20;
+}
+
 #list_title{
     font-size: 18px;
     line-height: 22px;
