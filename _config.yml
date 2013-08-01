@@ -14,13 +14,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Andrey Fradkin
+title : Jan Overgoor
 tagline: 
 author :
-  name : Andrey Fradkin
-  email : afradkin@gmail.com
-  github : Asquidy
-  twitter : AndreyFradkin
+  name : Jan Overgoor
+  email : janovergoor@gmail.com
+  github : janovergoor
+  twitter : janovergoor 
   feedburner : feedname
 
 paginate: 5
@@ -33,7 +33,7 @@ paginate: 5
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://asquidy.github.com
+production_url : http://janovergoor.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -91,7 +91,7 @@ JB :
   #
   comments :
     provider : disqus
-    disqus : andreyfradkin
+    disqus : janovergoor
       short_name : 
   #  livefyre :
   #    site_id : 123
