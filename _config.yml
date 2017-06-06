@@ -7,9 +7,9 @@ auto: true
 
 markdown: kramdown
 kramdown:
-  use_coderay: true
+  enable_coderay: true
 
-pygments: true
+highlighter: 'pygments'
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -90,18 +90,8 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
-    disqus : janovergoor
-      short_name : 
-  #  livefyre :
-  #    site_id : 123
-  #  intensedebate :
-  #    account : 123abc
-  #  facebook :
-  #    appid : 123
-  #    num_posts: 5
-  #    width: 580
-  #    colorscheme: light
+    provider : false
+
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
