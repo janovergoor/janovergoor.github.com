@@ -4727,14 +4727,13 @@ a.th {
     max-width: 800px; }
 
 .paperimage {
-    /*border: 1px solid #787878; */
     min-width: 110px;
     max-width: 110px;
     min-height: 40px;
     max-height: 110px;
     margin-left: 10px;
     margin-right: 20px;
-        display: inline-block;
+    display: inline-block;
     vertical-align: middle;
 }
 
