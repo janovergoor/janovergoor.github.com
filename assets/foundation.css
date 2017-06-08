@@ -4760,15 +4760,37 @@ td {
 }
 
 
+@font-face {
+  font-family: proxima-nova;
+  src: url(proxima-nova.otf);
+}
+
+@font-face {
+  font-family: proxima-nova-bold;
+  src: url(proxima-nova-bold.otf);
+}
+
+.header {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 24px;
+  margin-top: 0px;
+}
+
 .project {
-  font-size:15px;
-  line-height:1.4;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.4;
   margin-bottom: .25em;
   margin-right: .5em;
 }
 
 .project_title {
-  font-size:15px;
+  font-family: proxima-nova-bold, "Helvetica Neue", Helvetica;
+  font-size: 15px;
   font-weight: 500;
   margin-bottom: .25em;
 }
